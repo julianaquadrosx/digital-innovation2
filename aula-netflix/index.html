@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -26,11 +29,11 @@
              <div><p class="descricao">Manipulada pelo homem por quem se apaixonou, essa moça cometeu um crime. Condenada à prisão, ela agora deve aprender a viver num ambiente hostil e impiedoso. </p>
          </div>
          <div class="botoes">  
-           <button role="button" class="botao">
-            <i class="fas fa-play"></i> 
+           <button role="button" class="botao" onclick="location.href ='https://youtu.be/CFf15ubE_6I'">
+            <i class="fas fa-play" ></i> 
                ASSISTIR AGORA
             </button>
-           <button role="button" class="botao">
+           <button role="button" class="botao" onclick="location.href ='https://pt.wikipedia.org/wiki/Vis_a_vis_(série)'">
             <i class="fas fa-info-circle"></i> 
                MAIS INFORMAÇÕES
             </button>
@@ -40,9 +43,28 @@
      </div>
 
  </main>
+ <div class="carousel-filmes">
 
-<script src="https://kit.fontawesome.com/4a7ccb6d4a.js" crossorigin="anonymous"></script>
+  <div class="owl-carousel owl-theme">
+      
+        <div class="item"> <div class="box-filme"> <img src="img/mini1.jpg" alt=""> </div> </div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini2.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini3.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini4.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini5.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini6.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini7.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini8.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini9.jpg" alt=""> </div></div>
+        <div class="item"> <div class="box-filme"> <img src="img/mini10.jpg" alt=""> </div></div>
+   </div>
 
+ </div>
+
+<script src="https://kit.fontawesome.com/4a7ccb6d4a.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 
 
 </body>
